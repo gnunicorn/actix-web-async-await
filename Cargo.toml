@@ -11,7 +11,7 @@ categories = ["asynchronous", "web-programming::http-server"]
 readme = "README.md"
 
 [dependencies]
-actix-web = "0.7.13"
+actix-web = { version = "0.7.18", default-features = false }
 futures = "0.1"
 tokio-async-await = { version = "0.1.6", features = [ "async-await-preview" ] }
 
